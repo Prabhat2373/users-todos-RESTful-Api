@@ -1,0 +1,21 @@
+{
+  "name": "user-todos",
+  "version": "1.0.0",
+  "description": "users RESTful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "prabhat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "superagent": "^7.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^5.13.14"
+  }
+}
